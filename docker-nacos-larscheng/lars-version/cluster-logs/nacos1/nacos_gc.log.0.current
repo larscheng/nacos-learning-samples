@@ -1,0 +1,12 @@
+OpenJDK 64-Bit Server VM (25.242-b08) for linux-amd64 JRE (1.8.0_242-b08), built on Jan 28 2020 14:28:22 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-39)
+Memory: 4k page, physical 16315648k(2594984k free), swap 2097148k(2096112k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=327155712 -XX:GCLogFileSize=104857600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/nacos/logs/java_heapdump.hprof -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:MaxMetaspaceSize=335544320 -XX:MaxNewSize=335544320 -XX:MetaspaceSize=134217728 -XX:NewSize=335544320 -XX:NumberOfGCLogFiles=10 -XX:-OmitStackTraceInFastThrow -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:-UseLargePages -XX:+UseParallelGC 
+2020-03-19T18:06:09.309+0800: 2.074: [GC (Allocation Failure) [PSYoungGen: 245760K->4736K(286720K)] 245760K->4816K(483328K), 0.0190683 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-03-19T18:06:11.112+0800: 3.877: [GC (Allocation Failure) [PSYoungGen: 250496K->8368K(286720K)] 250576K->8456K(483328K), 0.0286093 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+2020-03-19T18:06:12.211+0800: 4.976: [GC (Allocation Failure) [PSYoungGen: 254128K->10260K(286720K)] 254216K->10364K(483328K), 0.0358936 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+2020-03-19T18:06:13.206+0800: 5.972: [GC (Allocation Failure) [PSYoungGen: 256020K->12356K(286720K)] 256124K->12468K(483328K), 0.0435776 secs] [Times: user=0.03 sys=0.00, real=0.05 secs] 
+2020-03-19T18:06:15.035+0800: 7.800: [GC (Allocation Failure) [PSYoungGen: 258116K->15856K(286720K)] 258228K->15976K(483328K), 0.0589549 secs] [Times: user=0.04 sys=0.00, real=0.06 secs] 
+2020-03-19T18:06:17.880+0800: 10.645: [GC (Allocation Failure) [PSYoungGen: 261616K->18421K(293888K)] 261736K->25775K(490496K), 0.0910816 secs] [Times: user=0.06 sys=0.02, real=0.10 secs] 
+2020-03-19T18:06:20.573+0800: 13.338: [GC (Allocation Failure) [PSYoungGen: 293877K->20308K(295936K)] 301231K->33800K(492544K), 0.1153906 secs] [Times: user=0.14 sys=0.00, real=0.11 secs] 
+2020-03-19T18:06:22.158+0800: 14.924: [GC (Allocation Failure) [PSYoungGen: 295764K->21679K(295936K)] 309256K->36635K(492544K), 0.0443277 secs] [Times: user=0.09 sys=0.00, real=0.05 secs] 
+2020-03-19T18:13:58.057+0800: 470.822: [GC (Allocation Failure) [PSYoungGen: 289967K->16120K(297984K)] 304923K->40095K(494592K), 0.0107401 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
