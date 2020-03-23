@@ -9,6 +9,7 @@
         <module name="nacos-namespace-two" />
         <module name="nacos-config" />
         <module name="nacos-provide" />
+        <module name="docker-nacos-larscheng" />
         <module name="nacos-config-share" />
         <module name="nacos-namespace-one" />
         <module name="nacos-feign" />

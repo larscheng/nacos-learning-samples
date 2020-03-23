@@ -16,6 +16,7 @@
         <module>nacos-config-share</module>
         <module>nacos-namespace-one</module>
         <module>nacos-namespace-two</module>
+        <module>docker-nacos-larscheng</module>
     </modules>
 
     <properties>
@@ -54,13 +55,30 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!--毕业版本的SpringCloudAlibaba依赖 官方推荐使用-->
             <dependency>
-                <groupId>org.springframework.cloud</groupId>
+                <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${nacos.version}</version>
+                <version>2.0.1.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- 使用目前最新的nacos客户端 1.2.0-->
+            <dependency>
+                <groupId>com.alibaba.nacos</groupId>
+                <artifactId>nacos-client</artifactId>
+                <version>1.2.0</version>
+            </dependency>
+
+            <!--孵化器版本的SpringCloudAlibaba依赖 官方不再推荐使用-->
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-alibaba-dependencies</artifactId>-->
+<!--                <version>${nacos.version}</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
 
 
         </dependencies>
