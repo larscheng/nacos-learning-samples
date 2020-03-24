@@ -1,5 +1,17 @@
 # nacos-learning-samples
 
+当前项目的各个模块依赖使用的版本说明：
+
+| 模块   | 版本                       | 备注 |
+| ------ | -------------------------- | ---- |
+| Jdk | 1.8    |      |
+| SpringBoot | 2.0.4.RELEASE |      |
+| SpringCloud | Finchley.RELEASE |      |
+| SpringCloudAlibaba | 2.0.1.RELEASE |      |
+| Nacos-client | 1.2.0 |      |
+| Nacos-server | 1.2.0 |  `docker部署`|
+
+
 该仓库是Nacos系列文章的相关源码
 
 
@@ -9,7 +21,7 @@
 
 博客文章发表后，收到很多读者老哥们的反馈，但逐渐发现原本写博客的那套源码，因为以下原因会给老哥们造成许多困扰：
 
-- 博客中使用nacos-server版本较早(V1.1.0)
+- 博客中使用nacos-server版本较早(V1.0.1)
 - 博客中使用的Nacos处于孵化阶段
 - 随着SpringCloudAlibaba毕业，依赖管理与以前稍有不同
 - Nacos版本快速迭代，继续使用老版本存在一定的风险
